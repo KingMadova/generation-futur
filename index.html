@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agence Génération Future | Orientation & Formation</title>
+
+    <!-- Remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS (si utilisé plus tard) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Génération<span>Future</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+        <div class="nav__btns">
+          <a href="#contact"><button class="btn">S'inscrire</button></a>
+        </div>
+      </div>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav__mobile__btn">
+          <a href="#contact"><button class="btn">S'inscrire</button></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="section__container header__container" id="home">
+      <div class="header__content">
+        <h1>
+          <span>Spécialisée</span> dans l’orientation, l’accompagnement et la
+          formation
+        </h1>
+        <p class="section__description">
+          des jeunes, étudiants et professionnels en quête d’opportunités
+          éducatives, professionnelles et migratoires, tant au niveau national
+          qu’international.
+        </p>
+        <div class="header__btn">
+          <a href="#services"
+            ><button class="btn">Découvrir nos services</button></a
+          >
+        </div>
+      </div>
+      <div class="header__image">
+        <img src="assets/header-1.jpg" alt="header 1" />
+        <img src="assets/header-2.jpg" alt="header 2" />
+        <img src="assets/header-3.jpg" alt="header 3" />
+      </div>
+    </header>
+
+    <!-- À PROPOS / CHOIX -->
+    <section class="section__container choose__container" id="about">
+      <div class="choose__image">
+        <img src="assets/choose.jpg" alt="Nos services" />
+      </div>
+      <div class="choose__content">
+        <p class="section__subheader">Pourquoi nous choisir ?</p>
+        <h2 class="section__header">Nos principaux <span>services</span></h2>
+        <ul class="choose__list">
+          <li>
+            <span><i class="ri-graduation-cap-fill"></i></span>
+            <div>
+              <h4>Orientation académique</h4>
+              <p>
+                Admissions dans les écoles et universités (France, Belgique,
+                Canada...)
+              </p>
+              <p>Accompagnement Campus France</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-passport-fill"></i></span>
+            <div>
+              <h4>Assistance pour les visas</h4>
+              <p>Visa études, tourisme, travail, regroupement familial</p>
+              <p>Constitution de dossiers fiables</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-briefcase-fill"></i></span>
+            <div>
+              <h4>Volet emploi</h4>
+              <p>Insertion professionnelle locale et internationale</p>
+              <p>CV, lettres de motivation et coaching entretien</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-lightbulb-flash-fill"></i></span>
+            <div>
+              <h4>Formations professionnelles</h4>
+              <p>Digital, RH, entrepreneuriat, informatique de base</p>
+              <p>Réseaux sociaux & communication</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="section__container mission__container">
+      <div class="mission__content">
+        <p class="section__subheader">Notre Mission</p>
+        <h2 class="section__header">
+          Construire un <span>avenir solide</span>
+        </h2>
+        <p class="section__description">
+          Offrir un accompagnement personnalisé et professionnel pour permettre
+          à chacun de construire un avenir solide grâce à l’éducation, la
+          mobilité et l’autonomisation.
+        </p>
+        <div class="mission__grid">
+          <div>
+            <h4>5+</h4>
+            <p>Années<br />d'expérience</p>
+          </div>
+          <div>
+            <h4>1000+</h4>
+            <p>Jeunes<br />accompagnés</p>
+          </div>
+          <div>
+            <h4>12+</h4>
+            <p>Pays<br />d'accueil</p>
+          </div>
+        </div>
+      </div>
+      <div class="mission__image">
+        <img src="assets/explore.jpg" alt="Mission" />
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section__container services__container" id="services">
+      <img src="assets/bg.png" alt="bg" class="services__bg" />
+      <p class="section__subheader">Nos domaines d'expertise</p>
+      <h2 class="section__header">Services <span>complets</span></h2>
+      <div class="services__grid">
+        <div class="services__card">
+          <div class="services__icon">
+            <i class="ri-graduation-cap-fill"></i>
+          </div>
+          <h4>Orientation universitaire</h4>
+          <p>
+            Accompagnement Campus France, admission en université, constitution
+            des dossiers.
+          </p>
+        </div>
+        <div class="services__card">
+          <div class="services__icon"><i class="ri-passport-fill"></i></div>
+          <h4>Assistance Visa</h4>
+          <p>
+            Préparation des dossiers pour visa études, tourisme, travail,
+            regroupement familial.
+          </p>
+        </div>
+        <div class="services__card">
+          <div class="services__icon"><i class="ri-briefcase-fill"></i></div>
+          <h4>Insertion professionnelle</h4>
+          <p>
+            Coaching emploi, CV/LM, préparation aux entretiens, opportunités
+            internationales.
+          </p>
+        </div>
+        <div class="services__card">
+          <div class="services__icon">
+            <i class="ri-lightbulb-flash-fill"></i>
+          </div>
+          <h4>Formations certifiantes</h4>
+          <p>
+            Entrepreneuriat, digital, RH et développement personnel pour booster
+            votre carrière.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÉMOIGNAGES -->
+    <section class="section__container client__container">
+      <img src="assets/bg.png" alt="bg" class="client__bg" />
+      <p class="section__subheader">Témoignages</p>
+      <h2 class="section__header">Ce que disent <span>nos clients</span></h2>
+
+      <div class="client__card active">
+        <img src="assets/client-1.jpg" alt="Sarah" />
+        <div class="client__content">
+          <h4>Sarah M.</h4>
+          <h5>Étudiante</h5>
+          <p>
+            "Grâce à Génération Future, j'ai pu intégrer une université à Paris
+            avec succès."
+          </p>
+        </div>
+      </div>
+      <div class="client__card">
+        <img src="assets/client-2.jpg" alt="Marc" />
+        <div class="client__content">
+          <h4>Marc T.</h4>
+          <h5>Entrepreneur</h5>
+          <p>
+            "Formation en création d'entreprise très pratique et motivante."
+          </p>
+        </div>
+      </div>
+      <div class="client__card">
+        <img src="assets/client-3.jpg" alt="Julie" />
+        <div class="client__content">
+          <h4>Julie K.</h4>
+          <h5>Professionnelle</h5>
+          <p>
+            "Visa canadien obtenu grâce à leur expertise ! Excellent suivi."
+          </p>
+        </div>
+      </div>
+      <div class="client__btns">
+        <button class="btn" id="prev">
+          <i class="ri-arrow-left-line"></i>
+        </button>
+        <button class="btn" id="next">
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section__container contact__container" id="contact">
+      <div class="contact__content">
+        <p class="section__subheader">Nous contacter</p>
+        <h2 class="section__header">
+          Des questions ? <span>Écrivez-nous</span>
+        </h2>
+        <form class="contact__form">
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+          <textarea placeholder="Votre message" rows="5" required></textarea>
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+      </div>
+      <div class="contact__details">
+        <div class="contact__card">
+          <div class="contact__icon"><i class="ri-map-pin-fill"></i></div>
+          <div>
+            <h4>Nos bureaux</h4>
+            <p>Brazzaville : 01 rue Sangha</p>
+            <p>Pointe-Noire : 117 avenue de Caire</p>
+          </div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__icon"><i class="ri-phone-fill"></i></div>
+          <div>
+            <h4>Appelez-nous</h4>
+            <p>+242 067 233 939</p>
+            <p>+242 044 586 161</p>
+          </div>
+        </div>
+        <div class="contact__card">
+          <div class="contact__icon"><i class="ri-mail-fill"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p>contact@generation-future-cg.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">Génération<span>Future</span></a>
+          </div>
+          <p>
+            Experts en orientation, mobilité internationale et insertion
+            professionnelle pour la jeunesse congolaise.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Orientation académique</a></li>
+            <li><a href="#">Visa & Mobilité</a></li>
+            <li><a href="#">Formations professionnelles</a></li>
+            <li><a href="#">Insertion</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Liens utiles</h4>
+          <ul class="footer__links">
+            <li><a href="#">Campus France</a></li>
+            <li><a href="#">Formations</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#"><i class="ri-phone-fill"></i> +242 067 233 939</a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-map-pin-fill"></i> Brazzaville</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="ri-mail-fill"></i>
+                contact@generation-future-cg.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        © 2025 Agence Génération Future. Tous droits réservés.
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
