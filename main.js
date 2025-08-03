@@ -128,3 +128,7 @@ ScrollReveal().reveal(".subscribe__container form", {
   ...scrollRevealOption,
   delay: 1000,
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7cf98c6afbba7fa5638dbe533d12a7723645d342
